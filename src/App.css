@@ -1,0 +1,197 @@
+/* ÍNDICE
+1. Article #SOCIAL CARD
+2. FILA 1: #TOP_INFO_SC
+3. FILA 2: #SC_TITLE
+4. FILA 3: #SC_DESCRIPTION */
+
+/* ======= 1. #SOCIAL CARD ======= */
+#social_card{
+    width: 21.5rem;
+    height: 9.25rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* Cuando se termine el componente se borra */
+    box-shadow: 0.5px 2px 3px rgba(0, 1, 20, 0.3);
+}
+
+#main_sc{
+    width: 19.5rem;
+    height: 7.25rem;
+    background-color: rgb(255, 230, 0);
+}
+
+/* ======= 2. #TOP_INFO_SC ======= */
+
+#sc_up_block{
+    width: 100%;
+    height: 65%;
+}
+
+#top_info_sc{
+    width: 100%;
+    height: 2.5rem;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tics_1{
+width: 40%;
+height: auto;
+background-color: orange;
+display: flex;
+flex-direction: column;
+}
+.card_info_sc{
+font-size: 0.9rem;
+}
+#secondary_cs_card_info{
+    color: grey;
+    font-size: 0.6rem;
+}
+#tics_2{
+width: 11.5rem;
+height: 100%;
+background-color: rgb(255, 0, 230);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#tics_2>a{
+    text-decoration: none;
+    width: auto;
+    max-height: 2.5rem;
+}
+#tics_2>a>i{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    background-color: beige;
+}
+#tics_2>a>img{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+/* ======= 3. #SC_TITLE ======= */
+#sc_title{
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+
+/* ======= 4. #SC_DESCRIPTION ======= */
+#sc_description{
+    width: 100%;
+    height: 35%;
+    background-color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* ÍNDICE CARD PRODUCTO
+1. Product Card
+2. Product image
+3. Product info
+4. Title
+5. Main Info product
+6. CTA & Reviews */
+
+
+/* =============== 1. PRODUCT CARD =============== */
+
+#product_card{
+    width: 21.5rem;
+    height: 25rem;
+    background-color: gray;
+    /* Eliminar al terminar la composición */
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(4, 0, 23, 0.4);
+}
+
+/* =============== 2. PRODUCT IMAGE =============== */
+#pr_image{
+    width: 100%;
+    height: 45%;
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+}
+
+/* =============== 3. PRODUCT INFO =============== */
+#pr_info{
+    width: 100%;
+    height: 55%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+.item_pr_info{
+    width: 19.5rem;
+}
+
+#title{
+height: 10%;
+background-color: pink;
+}
+
+#main_info{
+height: 50% ;
+background-color: yellow;
+display: flex;
+justify-content: space-between;
+}
+#main_info>div{
+width: 40%;
+background-color: blueviolet;
+font-size: 0.8rem; /* Esto no es real porque lo estamos visualizando en DESKTOP, lo dejaríamos a 1rem; */
+}
+#price{
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+}
+#price>span{
+    font-size: 3rem;
+}
+
+#pr_options{
+height: auto;
+background-color: blue;
+display: flex;
+justify-content: space-around;
+}
+#pr_options>div{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: aqua;
+}
+ 

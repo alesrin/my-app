@@ -1,0 +1,293 @@
+ ========================= JSX =========================
+ 
+ import { Fragment } from 'react'
+import './App.css'
+
+function App() {
+  
+
+  return (
+    
+    <> {/* FRAGMENT */}
+  <div id="container">
+    <div className="hijo" id="hijo1"></div>
+    <div className="hijo" id="hijo2"></div>
+    <div className="hijo" id="hijo3"></div>
+    <div className="hijo" id="hijo4"></div>
+  </div>
+
+   {/* FRAGMENT */} </> 
+  )
+}
+
+export default App
+
+
+========================= CSS =========================
+
+/*
+ÍNDICE
+1- Estilos generales
+    1.1- Contenedor
+    1.2- Hijos
+2- Estilos HEADER
+3- Estilos NAV
+4- Estilos LI
+5- Estilos A
+*/
+
+
+/*
+selector(id, class, etiqueta) {
+    propiedad: valor;
+}
+*/
+
+/*
+============ BLOQUE 1: Estilos generales ============
+*/
+#container{
+    width: 80%;
+    height: 400px;
+    background-color: lightpink;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hijo{
+    width: 10%;
+    height: 10%;
+}
+#hijo1{
+    background-color: yellow;
+}
+#hijo2 {
+    background-color: rgb(2, 247, 13);
+}
+#hijo3 {
+    background-color: rgb(32, 8, 247);
+}
+#hijo4 {
+    background-color: rgb(244, 10, 10);
+}
+div{
+    border-radius: 10px;
+}
+
+
+============ HEADER RYANAIR JSX ============
+
+
+
+import { Fragment } from 'react'
+import './App.css'
+
+function App() {
+  
+
+  return (
+    
+    <><header>
+      <div id="main_menu">
+        <div id="logotipo"></div>
+        <nav>
+          <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""><img src="" alt="" /></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="secondary_menu">
+        <div id="cat_search">
+          <div id="categories">
+            <ul>
+              <li><img src="" alt="" /><span></span></li>
+              <li><img src="" alt="" /><span></span></li>
+              <li><img src="" alt="" /><span></span></li>
+              <li><img src="" alt="" /><span></span></li>
+            </ul>
+          </div>
+          <div id="search_filters"></div>
+          <div id="dest_search"></div>
+        </div>
+        <div id="btn_search"><button></button></div>
+      </div>
+    </header>
+    </> 
+  )
+}
+
+export default App
+
+
+
+
+============ HEADER RYANAIR STYLE ============
+
+
+/* ÍNDICE de ESTILOS
+1- Header
+    - 1.1 main_menu (contenedor naranja)
+    - 1.2 secondary_menu (contenedor azul claro)
+
+
+
+*/
+
+/* =============== 1- Header ===============*/
+header{
+    width: 100%;
+    height: 20rem;
+    background-color: #073590 ;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- 1.1 main_menu ---- */
+/* BLOQUE PRINCIPAL ARRIBA */
+#main_menu{
+    width: 100%;
+    height: 20%;
+    background-color: #f58220 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logotipo{
+background-color: yellow;
+width: 17%;
+height: 65%;
+}
+nav{
+background-color: green;
+width: 50%;
+height: 60%;
+}
+#main_menu>nav>ul{
+list-style-type: none;
+display: flex;
+padding: 0;
+margin: 0;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+}
+#main_menu>nav>ul>li{
+background-color: purple;
+width: 16%;
+height: 100%;
+}
+#main_menu>nav>ul>li>a{
+
+}
+#main_menu>nav>ul>li>a>img{
+
+
+}
+/* ---- 1.2 secondary_menu ---- */
+/* BLOQUE PRINCIPAL ABAJO */
+#secondary_menu{
+    width: 100%;
+    height: 50%;
+    background-color: #7ec8e3 ;
+    display: flex;
+}
+
+/* BLOQUE IZQUIERDO */
+#btn_search{
+    background-color: red;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0.8rem 1.2rem 0.2rem;
+}
+
+#btn_search>button{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #f1c933;
+    border: none;
+    border-radius: 8px;
+}
+
+/* BLOQUE DERECHO */
+
+#cat_search {
+    background-color: aquamarine;
+    width: 75%;
+    padding: 0 0.2rem 1.2rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#categories{
+background-color: chartreuse;
+height: 33%;
+}
+#categories>ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+#categories>ul>li{
+    background-color: brown;
+    height: 70%;
+    width: 23%;
+}
+
+#search_filters{
+background-color: #073590;
+height: 26%;
+width: 100%;
+}
+
+#dest_search{
+background-color: pink;
+height: 33%;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
