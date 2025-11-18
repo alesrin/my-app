@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from '../styles/Button.module.css'
 
 function Button() {
   return (
     <>
-      <button>Ir a google</button>
+      <button className={styles.primary}>Ir a google</button>
     </>
   )
 }
