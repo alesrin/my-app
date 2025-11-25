@@ -1,0 +1,6 @@
+.footer{
+    background-color: rgb(127, 127, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

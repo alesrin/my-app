@@ -1,0 +1,9 @@
+.navigation_routes{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 11rem;
+}
