@@ -1,9 +1,6 @@
-
+@import "tailwindcss";
 
 .color-primary{
     color: rgb(84, 84, 146);
 }
-.accordion-button{
-    background-color: teal;
-    color: white;
-}
+
