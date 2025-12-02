@@ -81,6 +81,8 @@ Cuándo se utiliza el color info...
 --text-accent: var(--color-primary-200),
     #b1b1b180;
 
+/* Input, labels, h1, h2, h3, h4, h5, h6 */ 
+
 
 /* ======================
     Componentes - TOKENS ESPECÍFICOS
@@ -137,8 +139,14 @@ Cuándo se utiliza el color info...
 
 }
 
-
-
+/* Esto se crearía dentro de los estilos del componente botón */
+.btn-primary{
+    color: var(--bt-primary-text);
+    background-color: var(--bt-primary-bg);
+}
+.btn-dark-primary{
+    color: var(--bt-dark-primary-bg);
+}
 
 @media (min-width: 576px) {
     
