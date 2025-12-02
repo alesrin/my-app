@@ -46,3 +46,11 @@ border-color: red green blue yellow;
 .bg-primary{
     background-color: grey;
 }
+
+.text_background{
+background-color: yellow;
+}
+
+.font_lg{
+    font-size: 0.5rem;
+}

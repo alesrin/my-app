@@ -1,0 +1,165 @@
+/* DOCUMENTACIÓN
+1. Creación de nuestros Design Tokes, sistema de diseño:
+    ESTRUCTURA:
+        1. Primitivos: colores base del proyecto
+        2. Semánticos: significado contextual
+        3. Componentes: estilos específicos UI
+    IMPORTANTE:
+    - Modificar los colores base: editar solamente variables primitivas
+    - Cambiar tema completo: modifico tokens semánticos
+    - Los componentes SIEMPRE usan tokens semánticos, nunca colores directos
+
+
+*/
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+
+/* estilos PRIMITIVOS */
+
+
+/* Color primary
+Cuándo se utiliza el color primary...
+*/
+--color-primary-50: #2067eb; /* Explicación de cuando utilizar */ 
+--color-primary-100: #1450bf;
+--color-primary-150: #0a3e9e;
+--color-primary-200: #062f7c;
+--color-primary-250: #041d4c;
+--color-primary-300: #02102a;
+--color-primary-350: #020f28;
+--color-primary-400: #000610;
+
+/* Color secondary
+Cuándo se utiliza el color secondary...
+*/
+/* Color tertiary
+Cuándo se utiliza el color tertiary...
+*/
+
+/* Color verde-botella
+Cuándo se utiliza el color verde-botella...
+*/
+/* Color amarillo-container
+Cuándo se utiliza el color amarillo-container...
+*/
+
+/* Color pallete 
+Cuándo se utiliza el color pallete...
+*/
+--bg-primary: var(--color-gray-50);
+
+/* Grises neutros */
+--color-gray-50: #efefef;
+--color-gray-100: #c6c6c6;
+--color-gray-150: #a7a7a7;
+--color-gray-200: #7f7f7f;
+--color-gray-250: #5b5b5b;
+--color-gray-300: #2d2d2d;
+
+/* Estados: success, warnings, error */
+/* Color info
+Cuándo se utiliza el color info...
+*/
+
+/* ======================
+    Variables SEMÁNTICAS LIGHT (default)
+   ======================*/
+
+/* Variable texto */
+--text-primary: var(--color-gray-300),
+    #b1b1b180;
+--text-secondary: var(--color-gray-200),
+    #b1b1b180;
+--text-disable: var(--color-gray-150),
+    #b1b1b180;
+--text-accent: var(--color-primary-200),
+    #b1b1b180;
+
+
+/* ======================
+    Componentes - TOKENS ESPECÍFICOS
+   ======================*/
+
+/* Botones */
+--bt-primary-bg: var(--color-primary-100),
+    #b1b1b180;
+--bt-primary-bg-hover: var(--color-primary-250),
+    #b1b1b180;
+--bt-primary-text: var(--color-gray-50),
+    #b1b1b180;
+--bt-primary-border: var(--color-primary-50),
+    #b1b1b180;
+--bt-primary-border-hover: var(--color-primary-200),
+    #b1b1b180;
+
+}
+
+.dark{
+
+/* ======================
+    Variables SEMÁNTICAS DARK 
+   ======================*/
+
+/* Color Palette Dark Mode */
+--bg-dark-primary: var(--color-gray-300),
+    #b1b1b180;
+--dark-shadow-sm: var(--color-gray-250), #b1b1b180;
+--dark-shadow-md: var(--color-gray-250),
+    #b1b1b180;
+--dark-shadow-lg: var(--color-gray-250),
+    #b1b1b180;
+--dark-shadow-xl: var(--color-gray-250),
+    #b1b1b180;
+
+/* ======================
+    Componentes - TOKENS ESPECÍFICOS
+   ======================*/
+/* Botones */
+--bt-dark-primary-bg: var(--color-primary-100),
+    #b1b1b180;
+--bt-dark-primary-bg-hover: var(--color-primary-250),
+    #b1b1b180;
+--bt-dark-primary-text: var(--color-gray-50),
+    #b1b1b180;
+--bt-dark-primary-border: var(--color-primary-50),
+    #b1b1b180;
+--bt-dark-primary-border-hover: var(--color-primary-200),
+    #b1b1b180;
+
+
+
+
+}
+
+
+
+
+@media (min-width: 576px) {
+    
+}
+
+
+@media (min-width: 768px) {
+    
+}
+
+
+@media (min-width: 992px) {
+    
+}
+
+
+@media (min-width: 1200px) {
+   
+}
+
+
+@media (min-width: 1400px) {
+    
+}
