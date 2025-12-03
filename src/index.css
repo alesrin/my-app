@@ -1,3 +1,7 @@
+*{
+    background-color: var(--bg-primary);
+}
+
 /* DOCUMENTACIÓN
 1. Creación de nuestros Design Tokes, sistema de diseño:
     ESTRUCTURA:
@@ -72,14 +76,14 @@ Cuándo se utiliza el color info...
    ======================*/
 
 /* Variable texto */
---text-primary: var(--color-gray-300),
-    #b1b1b180;
---text-secondary: var(--color-gray-200),
-    #b1b1b180;
---text-disable: var(--color-gray-150),
-    #b1b1b180;
---text-accent: var(--color-primary-200),
-    #b1b1b180;
+--text-primary: var(--color-gray-300,
+    #b1b1b180);
+--text-secondary: var(--color-gray-200,
+    #b1b1b180);
+--text-disable: var(--color-gray-150,
+    #b1b1b180);
+--text-accent: var(--color-primary-200,
+    #b1b1b180);
 
 /* Input, labels, h1, h2, h3, h4, h5, h6 */ 
 
@@ -89,16 +93,16 @@ Cuándo se utiliza el color info...
    ======================*/
 
 /* Botones */
---bt-primary-bg: var(--color-primary-100),
-    #b1b1b180;
---bt-primary-bg-hover: var(--color-primary-250),
-    #b1b1b180;
---bt-primary-text: var(--color-gray-50),
-    #b1b1b180;
---bt-primary-border: var(--color-primary-50),
-    #b1b1b180;
---bt-primary-border-hover: var(--color-primary-200),
-    #b1b1b180;
+--bt-primary-bg: var(--color-primary-100,
+    #b1b1b180);
+--bt-primary-bg-hover: var(--color-primary-250,
+    #b1b1b180);
+--bt-primary-text: var(--color-gray-50,
+    #b1b1b180);
+--bt-primary-border: var(--color-primary-50,
+    #b1b1b180);
+--bt-primary-border-hover: var(--color-primary-200,
+    #b1b1b180);
 
 }
 
@@ -109,30 +113,31 @@ Cuándo se utiliza el color info...
    ======================*/
 
 /* Color Palette Dark Mode */
---bg-dark-primary: var(--color-gray-300),
-    #b1b1b180;
---dark-shadow-sm: var(--color-gray-250), #b1b1b180;
---dark-shadow-md: var(--color-gray-250),
-    #b1b1b180;
---dark-shadow-lg: var(--color-gray-250),
-    #b1b1b180;
---dark-shadow-xl: var(--color-gray-250),
-    #b1b1b180;
+--bg-dark-primary: var(--color-gray-300,
+    #b1b1b180);
+--dark-shadow-sm: var(--color-gray-250,
+    #b1b1b180);
+--dark-shadow-md: var(--color-gray-250,
+    #b1b1b180);
+--dark-shadow-lg: var(--color-gray-250,
+    #b1b1b180);
+--dark-shadow-xl: var(--color-gray-250,
+    #b1b1b180);
 
 /* ======================
     Componentes - TOKENS ESPECÍFICOS
    ======================*/
 /* Botones */
---bt-dark-primary-bg: var(--color-primary-100),
-    #b1b1b180;
---bt-dark-primary-bg-hover: var(--color-primary-250),
-    #b1b1b180;
---bt-dark-primary-text: var(--color-gray-50),
-    #b1b1b180;
---bt-dark-primary-border: var(--color-primary-50),
-    #b1b1b180;
---bt-dark-primary-border-hover: var(--color-primary-200),
-    #b1b1b180;
+--bt-dark-primary-bg: var(--color-primary-100,
+    #b1b1b180);
+--bt-dark-primary-bg-hover: var(--color-primary-250,
+    #b1b1b180);
+--bt-dark-primary-text: var(--color-gray-50,
+    #b1b1b180);
+--bt-dark-primary-border: var(--color-primary-50,
+    #b1b1b180);
+--bt-dark-primary-border-hover: var(--color-primary-200,
+    #b1b1b180);
 
 
 
@@ -164,7 +169,7 @@ Cuándo se utiliza el color info...
 
 
 @media (min-width: 1200px) {
-   
+
 }
 
 

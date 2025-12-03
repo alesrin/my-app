@@ -3,8 +3,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #333;
-    color: white;
+    background-color: var(--bg-primary);
+    color: var(--text-accent);
+}
+.dark-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg-dark-primary);
+    color: var(--text-primary);
 }
 
 
